@@ -1,6 +1,6 @@
 <?php
 
-$age = 25;
+$age = 26;
 
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
@@ -18,3 +18,13 @@ $age = 25;
  * 
  * İyi çalışmalar.
  */
+
+if($age>0 && $age <=14){
+    print("Çocuk");
+} elseif($age>=15 && $age<=24){
+    print("Genç");
+} elseif($age>=25 && $age<=64){
+    print("Yetişkin");
+} else{
+    print("Yaşlı");
+} 
